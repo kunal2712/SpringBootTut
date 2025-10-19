@@ -2,6 +2,7 @@ package com.course.spring.tut;
 
 import lombok.Data;
 
+// Simple POJO class
 
 public class Student {
 

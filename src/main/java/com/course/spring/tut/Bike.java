@@ -1,2 +1,12 @@
-package com.course.spring.tut;public class Bike {
+package com.course.spring.tut;
+
+import org.springframework.stereotype.Component;
+
+@Component("bike")
+public class Bike implements Vehicle {
+
+    @Override
+    public void move(){
+        System.out.println("Bike moves");
+    }
 }

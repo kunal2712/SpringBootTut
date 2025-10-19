@@ -1,2 +1,6 @@
-package com.course.spring.tut;public interface Vehicle {
+package com.course.spring.tut;
+
+public interface Vehicle {
+
+    void move();
 }
